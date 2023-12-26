@@ -13,6 +13,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff; /* White headings */
 }
 
+
+
 a {
     color: #4A86E8; /* Blue links */
 }
@@ -22,3 +24,37 @@ a:hover {
 }
 
 /* You can add more custom styles as needed */
+
+
+h1 {
+    margin-top: 50px; /* Most margin for the page title */
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 40px; /* Significant margin for main sections */
+    margin-bottom: 25px;
+    font-size: 1.5em; /* Larger font size for main sections */
+}
+
+h3 {
+    margin-top: 30px; /* Moderately less margin for subsections */
+    margin-bottom: 20px;
+    font-size: 1.3em; /* Slightly larger font size for subsections */
+}
+
+h4 {
+    margin-top: 20px; /* Smaller margin for sub-subsections */
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+h5 {
+    margin-top: 15px; /* Even smaller margin for h5 */
+    margin-bottom: 10px;
+}
+
+h6 {
+    margin-top: 10px; /* Least margin for h6 */
+    margin-bottom: 8px;
+}

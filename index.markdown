@@ -1,4 +1,7 @@
-# Game overview ----------------------------------------
+
+# Exoot Bible
+
+## Game overview
 
 ### General Gameplay Loop
 1. Prepare for adventure in town
@@ -110,7 +113,7 @@ For the following list of activities, note that:
 
 
 
-# Aspects of Gameplay -----------------------------------
+## Aspects of Gameplay
 
 ### Voxels
 The world is voxel-based. Voxel stands for "volumetric pixels," but it's a fancy word for cubes: think minecraft, except the cubes are much smaller. Voxels enable the world to be randomly generated, including the structures and dungeons that are placed within. This also means that everything is destructible. Randomly generated worlds are necessary, because in my opinion, the foundation of an rpg is exploration.
@@ -168,7 +171,7 @@ This game does not have hunger or thirst; survival mechanics refer to debuffs th
 
 
 
-# Main Mentalities ----------------
+## Main Mentalities
 
 ### Contrast 
 I think contrast is a hugely important concept to keep in mind while designing. To emphasize something, it must contrast its surroundings.
@@ -204,7 +207,13 @@ Like take weather in minecraft. Rain is a binary state, on or off. I want to hav
 Basically all of the mentalities above serve the main goal I hope to achieve with this game: putting the excitement back into exploration. It's so rare I find myself excited to explore anything anymore, in games or in life. By generating a fresh world with awesome shit to discover (loot/locations/nature) all on various complex, changing distributions, I want to create something worth exploring.
 
 
-# Theories ----------------
+
+
+
+
+
+
+## Theories
 Extra "game theory" stuff
 
 ### Allocation Theory
@@ -229,7 +238,7 @@ Complex > Complicated. Systems should be easy to understand, but hard to master.
 
 
 
-# Levelling, Stats, and Skills------------------
+## Levelling, Stats, and Skills
 
 ### Experience and Levelling System
 By gaining experience, players can level from 1-99. Every level grants one "Active Skill Point," and every 10 levels grants players one "Passive Skill Point."
@@ -296,40 +305,40 @@ In progress. Imagine a tree-like structure, with 3 starting nodes at the bottom,
 
 
 
-# Classes----------------
-
 ## Classes
+
+### Main Classes
 Warrior, Rogue, Elementalist, Druid, Necromancer
 
-### Warrior
+#### Warrior
 The Warrior class is built to delve into the fray. Warriors have the best physical traits: best innate movement speed, health, blocking, stamina, and strength & vitality bonuses. On the other hand, warriors generally have the least capacity for magic. 
 - Berserkers sacrifice their mana for rage: an alternate resource which grows when taking and dishing damage. They are highly maneuverable.
 - Colossi use mana to enhance their physicality, whether that be for generating force or defensive purposes.
 - Paladins harness their mana toward holy, fire, healing, and to buff their allies.  
 [[Warrior Skills (WIP)]]
 
-### Rogue
+#### Rogue
 Rogues excel in the art of subtlety. Utilizing sneaking, backstabbing, illusion, sniping, and various concoctions to their advantage, rogues certainly aim to be a high skill-cap class. Rogues have high innate movement speed, but have lower health, blocking, and strength/vitality bonuses compared to warriors. However, rogues have the best dexterity and sneaking bonuses, with respectable mana conserves. 
 - Illusionists use shadow magic to turn invisible and warp the minds of their foes
 - Assassins rely on physical prowess to maneuver and strike with devastating blows
 - Saboteurs come prepared, employing a variety of concoctions, traps, and techniques to apply bleed
 [[Rogue Skills (WIP)]]
 
-### Elementalist
+#### Elementalist
 Elementalists use their mastery of magic to sew destruction. They have the best mana conserves, but have to be cautious as they're the least defensive class.
 - Fire magi are aggressive, using explosions to maneuver and deal AOE damage. Their spells can catch opponents on fire.
 - Stormborn spells travel fast and can stun, but are short ranged. Stormborn can also use lightning to enhance their physical movements, and are keen on being spellswords.
 - Frostweaver is a tactical class. Their projectiles are often part physical which allows them to hit critical strikes, and many spells apply slow. Frostweaver does not have strong movement abilities, and move especially slow while casting.
 [[Elementalist Skills (WIP)]]
 
-### Druid
+#### Druid
 Druids harness nature magic in creative ways - they have markedly different playstyles based on their subclass. 
 - Wardens prefer the bow and are slippery like rogues
 - Shamans are casters who harness nature magic
 - Shapeshifters transform between various creatures mid-combat to maneuver or maul their opponents
 [[Druid Skills (WIP)]]
 
-### Necromancer
+#### Necromancer
 By harnessing death magic, Necromancers wield unnatural power. It's amazing what you can do when you sacrifice your morals.
 - Corruptors harness poison, curses, and resurrect the unliving
 - Bonewalkers cast spells of bone and flesh
@@ -339,7 +348,7 @@ By harnessing death magic, Necromancers wield unnatural power. It's amazing what
 
 
 
-# Combat---------------
+## Combat
 
 ### Skill cap determines progression system:
 - Low skill/tight progression example: clicker heroes. Your power is entirely gear based.
@@ -396,10 +405,10 @@ The stealth system is complex. There are 3 types of detection: visual, auditory,
 
 ## Damage calculations
 
-#### Damage Types
+### Damage Types
 Physical (pierce/slash/blunt), fire, cold, lightning, poison, magic, holy, death.
 
-#### Gear Modifiers
+### Gear Modifiers
 
 #### Defensive Modifiers (can be negative)
 Health, Stamina, Mana, Str, Dex, Vit, Ene, Armor, Block meter, Block regen, Stamina regen, % resist, Flat resist, Max health/stamina/mana % (UNIQUE), Max resist % (UNIQUE), Crit resist (UNIQUE), Attacker takes damage (phys or ele), Blind resistance %, Gold find, Frw, Magic find, Skill charges, % experience gained, +stat/clvl (clvl * rate), +active skill (requires points in the skill), +oskill (does not require points in the skill), +active skill type (eg +fire skills), +all skills, Socket, Cannot be frozen/thawing??, Drain life (UNIQUE), Requirements -%, Poison length reduced %, Bleed Resistance, 
@@ -426,7 +435,7 @@ Knockback???? Questionable
 Dmg type % bonus
 
 
-#### Physical Damage and Armor
+### Physical Damage and Armor
 Players have minimum and maximum armor values. On each hit, their effective armor rolls as a random number in this range.
 
 For example, say a player's armor values are 2 and 10. This means they will negate between 2-10 damage.
@@ -448,10 +457,10 @@ There is additional nuance to this which is not covered in the GDD. Though these
 
 For much more detailed notes: [[Blunt Slash Pierce Discussion]]
 
-#### Crits
+### Crits
 Crits do 50% more damage. Certain monsters like undead may be immune. Innate crit chance is on the weapon. Blunt rolls separately from slash/pierce. Blunt has a reduced crit rate, but isn't completely affected by crit immunity.
 
-#### Resistances
+### Resistances
 Unsure between EK (diminishing return) and D2 (subtraction). Many kinds of math functions could work - I want one that keeps earlier mobs semi relevant.
 
 (Experimental) Burst resistance: all enemies have innate "burst resistance" which reduces damage if taken too quickly (eg resistance kicks while they've lost more than 40% of their max health in the last second). It would be bypassed during sneak attacks. This seems like the best solution to keeping earlier mobs relevant - it wouldn't affect difficult mobs whatsoever.
@@ -461,7 +470,7 @@ The downside to this is it punishes single target damage over aoe...
 
 
 
-# Enemy Archetypes and Mechanics---------
+## Enemy Archetypes and Mechanics
 
 ### Enemy Spawning
 - Case 1: General Spawns
@@ -504,7 +513,7 @@ How to tell them apart: aggressives and passives look visually distinct. Additio
 
 
 
-# Areas-------------------
+## Areas
 
 Areas in this game should all have distinct vibes to them. Loosely speaking, easier areas will be close to the spawn point while far away lands will be harder. Harder areas will have soft barriers to prevent noobs from blindly stumbling into them. However, players should have gathered clues about what they're getting into via intentional design (eg bones on the ground+spooky area+townsfolk talk about how people never return from there = dangerous).
 
@@ -554,12 +563,12 @@ Here I ponder potentially cool areas (villages, cities, caves, deserts, whatever
 
 
 
-# Art-----------------
+## Art
 I very much enjoy the dark retro art of diablo 2, which inspired the atmosphere of this game. Pixelation lets the mind fill in the gaps.
 
 Weapons should often have unique art. This adds a lot to the immersion in a loot based game.
 
-## Build planning / Foreseen builds-----------------------
+### Build planning / Foreseen builds
 I want to plan out what niche each build occupies in terms of skill. Some builds will be lower skill+lower potential, and vice versa. I would like to outline what actions each build can do and how that contributes to the skill cap and overall playstyle.
 
 #### Warrior
@@ -572,7 +581,7 @@ I want to plan out what niche each build occupies in terms of skill. Some builds
 
 
 
-# General Lore---------
+## General Lore
 Too early to go on the GDD
 
 ### Death Magic
