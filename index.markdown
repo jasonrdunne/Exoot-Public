@@ -107,6 +107,9 @@ For the following list of activities, note that:
 - Inventory management
 
 
+
+
+
 # Aspects of Gameplay -----------------------------------
 
 ### Voxels
@@ -160,6 +163,9 @@ Players will be able to join larger hubs that enables them to socialize with oth
 
 ### Survival
 This game does not have hunger or thirst; survival mechanics refer to debuffs that occur from being in a particular location. Such mechanics will only be incorporated in a few small area, eg blizzard in a mountain pass to get to a new region. They're used as a soft barrier. If there is a survival mechanic present, it must be represented visually. Cold? The landscape is shrouded by a foggy blizzard. Hot? Heat waves radiate on the horizon. The player must be convinced that the conditions are real.
+
+
+
 
 
 # Main Mentalities ----------------
@@ -218,6 +224,9 @@ Example plot utilizing expectation theory: you’re a street rat who was just be
 
 ### Complexity Theory
 Complex > Complicated. Systems should be easy to understand, but hard to master.
+
+
+
 
 
 # Levelling, Stats, and Skills------------------
@@ -285,6 +294,8 @@ In progress. Imagine a tree-like structure, with 3 starting nodes at the bottom,
 
 
 
+
+
 # Classes----------------
 
 ## Classes
@@ -323,6 +334,8 @@ By harnessing death magic, Necromancers wield unnatural power. It's amazing what
 - Corruptors harness poison, curses, and resurrect the unliving
 - Bonewalkers cast spells of bone and flesh
 - Death Lords wear heavy plate armor and fight in melee.
+
+
 
 
 
@@ -444,6 +457,10 @@ Unsure between EK (diminishing return) and D2 (subtraction). Many kinds of math 
 (Experimental) Burst resistance: all enemies have innate "burst resistance" which reduces damage if taken too quickly (eg resistance kicks while they've lost more than 40% of their max health in the last second). It would be bypassed during sneak attacks. This seems like the best solution to keeping earlier mobs relevant - it wouldn't affect difficult mobs whatsoever.
 The downside to this is it punishes single target damage over aoe...
 
+
+
+
+
 # Enemy Archetypes and Mechanics---------
 
 ### Enemy Spawning
@@ -482,6 +499,8 @@ Enemies will generate with a “personality,” which defines their likelihood t
 This chance is also influenced by if the enemy has detected the player or not. If an enemy cannot sense the player and takes damage, it will be more likely to flee. However, if the player damages the player and reveals themself, an aggressive enemy might choose to engage.
 
 How to tell them apart: aggressives and passives look visually distinct. Additionally, the spell "Intuit" reveals the personality of an enemy. Knowing the personality of an enemy is strategic information: it may be easier to lure aggressives away, so you don’t engage a passive and then get mobbed by all the foes. Passives also have worse stats, while aggressives have increased stats.
+
+
 
 
 
@@ -534,6 +553,7 @@ Here I ponder potentially cool areas (villages, cities, caves, deserts, whatever
 
 
 
+
 # Art-----------------
 I very much enjoy the dark retro art of diablo 2, which inspired the atmosphere of this game. Pixelation lets the mind fill in the gaps.
 
@@ -547,6 +567,8 @@ I want to plan out what niche each build occupies in terms of skill. Some builds
 #### Ranger
 
 #### Sorcerer
+
+
 
 
 
