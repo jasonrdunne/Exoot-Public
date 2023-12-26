@@ -84,7 +84,7 @@ For the following list of activities, note that:
 - The individual execution of activities determines whether they're actually fun or not. A lot of care must go into their design. 
 - The following list is not yet comprehensive
 
-**Competitive/Skill based/Boundary pushing activities**
+##### Competitive/Skill based/Boundary pushing activities
 - Exploration Gameplay Loop: around or above player's level
 - Competitive PVP
 - Buildcrafting (deciding on skills, gear, etc)
@@ -93,14 +93,14 @@ For the following list of activities, note that:
 - Theory-crafting to breach ultra endgame zones and foes
 - Race to level up at the start of a season (placing on the global leaderboard)
 
-**Social activities**
+##### Social activities
 - Hanging out at hubs
 - Trading
 - PVP
 - Minigames against against other players (betting games at the inn, as well as other random minigames that exist throughout the game world) (these could become competitive)
 - Doing any other activity in this list as a party
 
-**Leisure activities**
+##### Leisure activities
 - Exploration Gameplay Loop: below the player's level, or for pure exploration
 - Crafting (not overemphasized in this game)
 - Gathering resources: foraging, fishing, mining, farming lower level mobs
@@ -108,7 +108,7 @@ For the following list of activities, note that:
 - Exploring the world for secrets
 - Selling loot and upgrading gear in town
 
-**General Activities**
+##### General Activities
 - Questing
 - Inventory management
 

@@ -32,30 +32,46 @@ h1 {
 }
 
 h2 {
-    margin-top: 50px; /* Significant margin for main sections */
-    margin-bottom: 15px;
+    margin-top: 45px; /* Significant margin for main sections */
+    margin-bottom: 0px;
     font-size: 1.5em; /* Larger font size for main sections */
 }
 
 h3 {
-    margin-top: 23px; /* Moderately less margin for subsections */
+    margin-top: 20px; /* Moderately less margin for subsections */
     margin-bottom: 0px;
     font-size: 1.1em; /* Slightly larger font size for subsections */
 }
 
 h4 {
-    margin-top: 13px; /* Smaller margin for sub-subsections */
+    margin-top: 30px; /* Smaller margin for sub-subsections */
     margin-bottom: 0px;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 h5 {
     margin-top: 12px; /* Even smaller margin for h5 */
-    margin-bottom: 10px;
-    font-size: 0.8em;
+    margin-bottom: 0px;
+    font-size: 1.1em;
 }
 
 h6 {
     margin-top: 10px; /* Least margin for h6 */
-    margin-bottom: 8px;
+    margin-bottom: 0px;
+}
+
+ol, li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px; /* Adjust left padding for better alignment */
+}
+
+ul {
+    margin-bottom: 7px;
+}
+
+
+p {
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
