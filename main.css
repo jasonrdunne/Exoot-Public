@@ -1,0 +1,24 @@
+/* main.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #202020; /* Dark background */
+    color: #C0C0C0; /* Light text */
+    font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White headings */
+}
+
+a {
+    color: #4A86E8; /* Blue links */
+}
+
+a:hover {
+    color: #FFA500; /* Orange on hover */
+}
+
+/* You can add more custom styles as needed */
