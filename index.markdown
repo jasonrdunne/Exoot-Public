@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/main.css">
+
 ## Game overview ----------------------------------------
 
 #### General Gameplay Loop
