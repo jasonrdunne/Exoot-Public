@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 
 
+
 # Exoot Bible
 
 ## Game overview
@@ -531,7 +532,7 @@ Areas in this game should all have distinct vibes to them. Loosely speaking, eas
 - Susceptibility to natural disasters
 - Stuff to find
 
-Sub-Parameter: Civilization
+##### Sub-Parameter: Civilization
 - Technology level
 - Architecture
 - Entertainment
@@ -542,7 +543,7 @@ Sub-Parameter: Civilization
 - Cultural and historical factors (eg city with rich history of art vs economic trading hub). Culture is very important to me; I want to dive into how cultures are shaped by their geography.
 - Political state
 
-Sub-Parameter: Hospitableness / Climate
+##### Sub-Parameter: Hospitableness / Climate
 - Wetness (arid vs foggy), 
 - Temperature: affecting light hues, species (eg tropical vs tundra), dirt, etc
 - Light level: darkness vs sunlight
