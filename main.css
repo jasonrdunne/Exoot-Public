@@ -6,7 +6,7 @@ body {
     background-color: #202020; /* Dark background */
     color: #C0C0C0; /* Light text */
     font-family: 'Roboto', sans-serif; /* Change to your preferred font */
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,25 +32,25 @@ h1 {
 }
 
 h2 {
-    margin-top: 40px; /* Significant margin for main sections */
-    margin-bottom: 25px;
+    margin-top: 50px; /* Significant margin for main sections */
+    margin-bottom: 15px;
     font-size: 1.5em; /* Larger font size for main sections */
 }
 
 h3 {
-    margin-top: 30px; /* Moderately less margin for subsections */
-    margin-bottom: 20px;
-    font-size: 1.3em; /* Slightly larger font size for subsections */
+    margin-top: 23px; /* Moderately less margin for subsections */
+    margin-bottom: 0px;
+    font-size: 1.1em; /* Slightly larger font size for subsections */
 }
 
 h4 {
-    margin-top: 20px; /* Smaller margin for sub-subsections */
-    margin-bottom: 15px;
+    margin-top: 15px; /* Smaller margin for sub-subsections */
+    margin-bottom: 12px;
     font-size: 1.1em;
 }
 
 h5 {
-    margin-top: 15px; /* Even smaller margin for h5 */
+    margin-top: 12px; /* Even smaller margin for h5 */
     margin-bottom: 10px;
 }
 
