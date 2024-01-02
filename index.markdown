@@ -12,7 +12,7 @@
 3. Return to town to process the loot/experience accumulated from the adventure
 
 ### General Gameplay Loop Details
- - The town vs wilderness dichotomy: a system of tension and relief. In the wilderness, dangerous foes and creatures roam about. Players have limited ability to heal away from towns, which means a careless blunder can put them in a bad situation. I think this dichotomy is the secret sauce behind making exploration fun. A player who has no reason to return to town feels no thrill about being far away from it. In contrast, a player who is running low on health in the depths of a dungeon is grappling with two opposing forces: fear of running out of health versus the burning desire to discover what loot awaits at the end. Barely surviving a dangerous encounter by the skin of their teeth and then stumbling through the door of a warm inn is the sought-after scenario.
+ - The town vs wilderness dichotomy: a system of tension and relief. In the wilderness, dangerous foes and creatures roam about. Players have limited ability to heal away from town, which means a careless blunder can put them in a bad situation. I think this dichotomy is the secret sauce behind making exploration fun. A player who has no reason to return to town feels no thrill about being far away from it. In contrast, a player who is running low on health in the depths of a dungeon is grappling with two opposing forces: fear of running out of health versus the burning desire to discover what loot awaits at the end. Barely surviving a dangerous encounter by the skin of your teeth and then stumbling through the door of a warm inn is the sought-after scenario.
  - Character builds are comprised of stats, active skills, passive skills, and gear choices. The intention for these systems is to be easy to understand, yet the intricate relationship between them enables for a wide range of outputs, i.e. many *interesting* resultant playstyles
  - Enemy encounters aim to feel like a puzzle. The player's build is akin to their toolset, and they are expected to utilize each tool creatively & to its maximum potential to solve the encounter
  - Soft barriers allows for even craftier players to get ahead (refer to the mentalities section)
@@ -20,14 +20,14 @@
 
 
 ### Overworld Map Layout
-The landscape is always based in the same fantasy world. I emphasize this because it's also true that the wilderness regenerates every time the player recovers at an inn, to keep exploration fresh.
+Exoot's landscape is always based in the same fantasy world. I emphasize this because it's also true that the wilderness regenerates every time the player recovers at an inn, to keep exploration fresh.
 
 Everything in the wilderness lies on the scale between predetermined and random:
 - The wilderness is always composed of static named regions. For example, "The Shire" is a named region in LOTR. Static meaning the same regions will always exist in the same spots, like on a map.
 - The terrain in a region is randomly generated to the context of the region. For example, The Shire will always randomize with rolling grassy hills. Likewise, Mordor's terrain would be a spiky, barren wasteland.
 - The village where all the hobbits live is equivalent to a "city": a handcrafted point of interest which is guaranteed to spawn.
-- Each region has an intrinsic level range. The region's level matches the level of the highest player in the game, staying clamped within the intrinsic range. For instance, a region might have a level range of 5-10. If the only player in the world is level 7, then the region is level 7. When the player levels to 8, the region will become level 8. Higher level enemies can drop better loot. The purpose of this system is because static levels are impossible to balance in an open world, but completely adaptive enemy levels are ridiculous and ruin any sense of progression.
-- When exploring the wilderness, the player will encounter structures. Structures include anything "manmade" like dungeons, ruins, buildings, cities, or dilapidated shacks. There are two types of structures: randomly generated and handcrafted. Handcrafted structures fulfill specific lore-related purposes like containing quest locations/specific npcs, while randomly generated structures are solely for exploration and loot. Handcrafted structures *can* utilize randomness, though, like for their monster spawns.
+- Each region has an intrinsic level range. The region's level matches the level of the highest player in the game, staying clamped within the intrinsic range. For instance, a region might have a level range of 5-10. If the only player in the world is level 7, then the region is level 7. When the player levels to 8, the region will become level 8. Higher level enemies can drop better loot. The purpose of this system is because static levels are impossible to balance in an open world, but completely adaptive enemy levels are ridiculous & ruin any sense of progression.
+- When exploring the wilderness, the player will encounter structures. Structures include anything manmade like dungeons, ruins, buildings, cities, or dilapidated shacks. There are two types of structures: randomly generated and handcrafted. Handcrafted structures fulfill specific lore-related purposes like containing quest locations/specific npcs, while randomly generated structures are solely for exploration and loot. Handcrafted structures *can* utilize randomness, though, like for their monster spawns.
 - Regions are composed of biomes of varying rarity. For instance, a creek may commonly spawn in the shire, but sometimes, rarely, an ancient patch of trees with unique resources to harvest can occur. Biomes have their own attributes: monsters/structures/resources that spawn, events that occur, terrain generation parameters, etc. Biomes will be apparent to the player as they explore, that they've stumbled upon an area which prompts further investigation.
 - Dungeons/structures inside a region often have a higher level range than the region itself, especially if they're difficult to reach (it'd be bad game design to let the player stumble into a difficult dungeon without cueing it).
 
@@ -44,7 +44,7 @@ Everything in the wilderness lies on the scale between predetermined and random:
 ### Progression
 Progression is the core of RPGs. Exoot's progression is founded on the principle of contrast: each stage of the game should feel distinct from one another to highlight the player's growth in power.
 
-- At the very beginning of the game, players should feel disadvantaged, and they will need to use every wit at their disposal to scrape by. This may include spending a few days gathering herbs to sell, begging, stealing, or hunting small wildlife. Players are barely strong enough to fend off a boar, let alone another person.
+- At the very beginning of the game, players should feel disadvantaged, and they will need to use their wits to scrape by. This may include spending a few days gathering herbs to sell, begging, stealing, or hunting small wildlife. Players are barely strong enough to fend off a boar, let alone another person.
 - As they enter early game, they can revel in the satisfaction of no longer being "at the bottom of the food chain." Players will now have accrued various abilities (albeit not impressive ones), and they will begin setting the trajectory of their builds. Players are still exploring conceptually "normal" areas, like caves, small bandit encampments, forests, etc. They currently have little reason to suspect that anything in this game is fantastical.
 - In midgame, players will get their first rush of power. They think of themselves like seasoned adventurers, but have begun encountering situations out of the ordinary: dueling rogue mages, hunting magical beasts, and witnessing a few supernatural sights that give the player a taste that they're delving into a world beyond their scope.
 - As players approach endgame, they start seeing crazy shit. Entering zones like an underworld full of nightmarish undead, elusive mythical beasts, illusionary & non euclidean environments. When players encounter such areas, it will be startling because it contrasts the "normal" world they were in before. At this point, they've internalized the fact that visual appearance in exoot is not a meaningless detail, so they will expect a ramp up in difficulty, rightfully so. This will manifest as anxiety about limited healing: they won't know how much they should try to conserve their health. But this extra caution is driven by an excitement to find sweet loot (which, in these kinds of areas, will certainly not disappoint).
@@ -84,7 +84,7 @@ For the following list of activities, note that:
 - The individual execution of activities determines whether they're actually fun or not. A lot of care must go into their design. 
 - The following list is not yet comprehensive
 
-##### Competitive/Skill based/Boundary pushing activities
+**Competitive/Skill based/Boundary pushing activities**
 - Exploration Gameplay Loop: around or above player's level
 - Competitive PVP
 - Buildcrafting (deciding on skills, gear, etc)
@@ -93,14 +93,14 @@ For the following list of activities, note that:
 - Theory-crafting to breach ultra endgame zones and foes
 - Race to level up at the start of a season (placing on the global leaderboard)
 
-##### Social activities
+**Social activities**
 - Hanging out at hubs
 - Trading
 - PVP
 - Minigames against against other players (betting games at the inn, as well as other random minigames that exist throughout the game world) (these could become competitive)
 - Doing any other activity in this list as a party
 
-##### Leisure activities
+**Leisure activities**
 - Exploration Gameplay Loop: below the player's level, or for pure exploration
 - Crafting (not overemphasized in this game)
 - Gathering resources: foraging, fishing, mining, farming lower level mobs
@@ -108,7 +108,7 @@ For the following list of activities, note that:
 - Exploring the world for secrets
 - Selling loot and upgrading gear in town
 
-##### General Activities
+**General Activities**
 - Questing
 - Inventory management
 
@@ -119,31 +119,31 @@ For the following list of activities, note that:
 ## Aspects of Gameplay
 
 ### Voxels
-The world is voxel-based. Voxel stands for "volumetric pixels," but it's a fancy word for cubes: think minecraft, except the cubes are much smaller. Voxels enable the world to be randomly generated, including the structures and dungeons that are placed within. This also means that everything is destructible. Randomly generated worlds are necessary, because in my opinion, the foundation of an rpg is exploration.
+The world is voxel-based. Voxel stands for "volumetric pixel," but it's a fancy word for cube: think minecraft, except the cubes are much smaller. Voxels enable the world to be randomly generated, including the structures and dungeons that are placed within. This also means that everything is destructible. Randomly generated worlds are necessary, because in my opinion, the foundation of an rpg is exploration.
 
 ### Inventory
 The inventory is a grid of squares, where items take up different sizes.
 
 ### Economy
-The player primarily accrues gold by selling loot found on expeditions. This loot may come from enemy drops, harvesting natural resources, in chests, \<continue listing\>, etc. Players can use gold to purchase goods or services from various NPCs, and during trading with other players.
+The player primarily accrues gold by selling loot found on expeditions. This loot may come from enemy drops, chests, harvesting natural resources, essentially whatever players may stumble across. Players can use gold to purchase goods or services from NPCs, and to trade with other players.
 Potions are strikingly expensive. Players should be reluctant to use them. 
 
 ### "Recursive Lootboxes"
-A key strategy to make exploration interesting is a concept I call "recursive lootboxes". It basically hijacks the brain's urge to gamble... recursively (joking but not really). Essentially, the hunt for loot can be broken into multiple tiers:
-- 1st Tier: what structures players find while exploring. "Difficult" structures for the area are rarer but contain better loot, better chance for a boss/rare mob spawn, etc, so players looking for a challenge will be hoping for these. It doesn't mean other structures are bad by any means, but stumbling across an opportunity like this will ideally spike the adrenaline. Let's say the player has found a challenging dungeon.
+A key strategy to make exploration interesting is a concept I call "recursive lootboxes". Essentially, the hunt for loot can be broken into multiple tier of randomness:
+- 1st Tier: what structures players find while exploring. "Difficult" structures for the area are rarer but contain better loot, better chance for a boss/rare mob spawn, etc, so players looking for a challenge will be on the lookout for these. It doesn't mean other structures are bad by any means, but stumbling across an opportunity like this will ideally spike the adrenaline. Let's say the player has discovered a challenging dungeon.
 - 2nd Tier: what spawns in the dungeon. Dungeons may or may not spawn with particular rooms, like hidden stashes or vaults guarded by especially difficult foes, or mini-bosses. Again, players looking for a challenge will hope to find these. 
 - 3rd Tier: what loot drops from these enemies/chests? (Greatsword, if you're a berserker? Rare or Unique quality?)
 - 4th Tier: how do the items roll? Does it have the right mods, with high rolls?
 
-Notice that chance for interesting loot correlates with difficulty. I want to emphasize a point I made earlier: enemy encounters aim to feel like a puzzle. Players will see a situation and strategize how to tackle the room of foes that would probably win in a straight-up fight. And of course, harder puzzles give greater rewards.
+Notice the high-risk high-reward mentality: the chance for interesting loot correlates with difficulty. I want to emphasize a point I made earlier: enemy encounters aim to feel like a puzzle. Players will see a situation, and have to strategize how to tackle the room of foes that would probably be impossible in a straight-up fight. And of course, the harder the puzzle, the more tempted the player will be to risk it.
 
-Also notice that no tier is completely decisive:
+Also note that no tier is completely decisive:
 - you can still find good loot in easier dungeons, it's just less common.
 - you can still find good loot from normal enemy kills (not from a vault or a mini-boss), it's just less common.
-- you can still find good items of a lower "quality" (magic {blue} items can actually outperform uniques under rare circumstances), it's just less common.
-- you can still find good items with subpar rolls, it's just less common.
+- you can still find good items of a lower "quality" (magic/blue items can actually outperform uniques under rare circumstances), it's just less common.
+- you can still find good upgrades with subpar rolls, it's just not as common.
 
-This exploration+loot system is dynamic and exciting.
+This loot system is dynamic and exciting; it's the driving force behind exploration.
 
 ### Dying and Respawning
 Dying respawns you in the last town you visited. Death penalties include (not finalized):
@@ -158,21 +158,43 @@ Dying respawns you in the last town you visited. Death penalties include (not fi
 
 ### Inns
 - When players sleep at an inn, the wilderness rerolls new terrain and structures.
-- During multiplayer, all players must be at an inn to sleep. Players can summon other players to an inn (assuming they've visited the city already), although this effectively counts as dying without xp drop. Sleeping at an inn regenerates "supplies" (full restores that can be used outside of combat) and it regenerates the world. This is a further reason why it's so painful to abandon a rare structure - it won't be there after healing.
+- During multiplayer, all players must be at an inn to sleep. Players can summon other players to an inn (assuming they've visited the city already), although this effectively counts as dying without xp drop. Sleeping at an inn regenerates "supplies" (full restores that can be used outside of combat) and it regenerates the world. This is a further reason why it's so painful to abandon a rare structure - it won't be there after resting.
 
 ### Pvp-Aware Endgame
 PVP is a completely optional aspect of exoot. A PVP arena system will be implemented, where players can wager loot and duke it out.
 The best build in PVE is not necessarily the best build in PVP. A lot of interesting and crazy builds, which need highly specific gear (not necessarily endgame gear; it'd include elusive items from midgame/early game. View \<itemization\>), will mean that even after one has cleared PVE content, there is a new realm of complexity for them to interact with. Some player's real goal during PVE may be to get the gear they have in mind for PVP.
 
 ### Socialization
-Players will be able to join larger hubs that enables them to socialize with other players, show off their gear, etc. This makes the character an extension of the self; more than just a vehicle for slaying monsters (as described by the framework).
+Certain larger cities have their own loading zones and act like lobbies, where players share the same space. This enables them to socialize with other players, show off their gear, etc. Therefore the character an extension of the self; more than just a vehicle for slaying monsters (as described by the framework).
 
 ### Survival
-This game does not have hunger or thirst; survival mechanics refer to debuffs that occur from being in a particular location. Such mechanics will only be incorporated in a few small area, eg blizzard in a mountain pass to get to a new region. They're used as a soft barrier. If there is a survival mechanic present, it must be represented visually. Cold? The landscape is shrouded by a foggy blizzard. Hot? Heat waves radiate on the horizon. The player must be convinced that the conditions are real.
+This game does not have hunger or thirst: survival mechanics refer to debuffs that occur from being in a particular location. Such mechanics will only be incorporated in a few small areas, eg a blizzard in a mountain pass to reach a new region. They're used as soft barriers. If there's a survival mechanic present, it must be represented visually. Cold damage per second? The landscape is shrouded by a foggy blizzard. Fire damage per second? Heat waves radiate on the horizon. The player must be convinced that the conditions are real.
 
 
+### Endgame
+How to make endgame stay interesting: have a few optional areas that are REALLY hard (like you have to min-max to clear). The types of items dropped there are rare and marginally better at best, and possibly a few charms/socketables/whatever that are desirable for completionists. Therefore most players won’t feel super obligated to farm these areas, since the loot isn't that much better, but it keeps the endgame fresh.
 
 
+### Ultra Endgame
+Imagine there's a large ocean in the mid-game. In a random spot in this ocean, there exists a trench of unknown depth, but it clearly descends to blackness. The player swims down and realizes they are taking pressure damage. Clearly they need some sort of special gear to go down here.
+
+In the late game, the player finds a diving helmet and returns to the trench. Fighting their way down, the creatures down here are surprisingly strong.
+
+The trench narrows and narrows, until the last flicker of light fades. Suddenly the player is in complete darkness, except for the faint glow of their character, which illuminates nearby particulates floating in the water. Noticing these particulates rising, the player realizes they are still sinking.
+
+After a while, there's a faint sensation. Like the whole ocean is rumbling. Then it's gone, and everything goes quiet.
+
+...
+
+In the blink of an eye, an unimaginably massive serpent flies across the player's screen, paired with a deep, horrifying noise. You know how this ends.
+
+This pitch black area beneath the trench will be intentionally unexplorable. By that, I mean that I will make it exceedingly difficult with no obvious path to success. The serpent will be on a league of its own in terms of difficulty, and paired with the extreme darkness, I imagine this area will stay unmapped for a long time.
+
+However, it's areas like this that add SO much depth & mystery to the game. Players in the early, middle, and endgame will yearn to uncover what mysteries lie down there. Questions will fill forums and chat rooms: can the serpent can even be slain? What is its origin? What happens if you get past the serpent? And of course, everyone will drool about what it might drop. Game-wide glory would go to the first player to beat such a foe and explore the depths.
+
+And for something like this, I would make the reward worth it.
+
+(ultra endgame takes the concept/allure of speedrunning and actually integrates it with the game)
 
 ## Main Mentalities
 
@@ -183,15 +205,15 @@ I think contrast is a hugely important concept to keep in mind while designing. 
 Often times in games, progression is locked behind hard barriers. For example, players can't enter a new zone until they've beaten the last zone. However, this game will mostly utilize soft barriers. A soft barrier implies there's resistance to achieving something, but there's not an outright restriction. If players have the ingenuity, they can overcome these obstacles (soft does not mean easy). Hard barriers are dumb because there's no reason to restrict player freedom if they're dedicated.
 
 ### Meaningful Appearances and Symbols
-A common occurrence in games is when enemy appearance does not match their strength. For example, an early game boss might be 15 feet tall, but have less health than a regular human during midgame. I aim to avoid this: appearance will generally scale with strength (if you see a big enemy, you should damn well be scared). This is one example of the meaningful symbols mentality: players should be able to rely on their instincts to gauge situations. Another example: if a door has scratch marks and blood stains, they actually need to be wary of what might be behind it. As players get more accustomed to the game, they will eventually form an intuition: symbols actually have meaning; the game must be respected. Of course, building this intuition just to violate it in the right places is also key.
+A common occurrence in games is when enemy appearance does not match their strength. For example, an early-game boss might be 15 feet tall, but have less health than a regular human during mid-game. I aim to avoid this: appearance will generally scale with strength (if you see a big enemy, you should damn well be scared). This is one example of the meaningful symbols mentality: players should be able to rely on their instincts to gauge situations. Another example: if a door has scratch marks and blood stains, players actually need to be wary of what's behind it. As players get more accustomed to the game, they will eventually form an intuition: symbols actually have meaning; the game must be respected. Of course, building this intuition just to violate it in the right places is also key.
 
 ### Everything has a Pattern
-One of the best parts about playing RPGs is building a general intuition that players can use to their advantage. Everything in the world should have a learnable, exploitable pattern. An obvious instance of this would be that abandoned hospitals have a higher likelihood of medical loot compared to other structures. Going a bit deeper, hospital structures would be more likely to spawn on the border between two hostile factions. I would like this intuition-based mentality to apply to all entity spawn locations (monsters, traps, roaming merchants, secret areas, etc), since it's these subtle patterns that, consciously or not, create a players' intuition. A world that's perfectly random feels dull and meaningless.
+One of the best parts about playing RPGs is how you build a general intuition that you can use to your advantage. For this to occur, everything in the world should have a learnable, exploitable pattern. An obvious instance of this would be that abandoned hospitals have a higher likelihood of medical loot compared to other structures. Going a bit deeper, hospital structures would be more likely to spawn on the border between two hostile factions. I would like this intuition-based mentality to apply to all entity spawn locations (monsters, traps, roaming merchants, secret areas, etc), since it's these subtle patterns that, consciously or not, create a players' intuition. A world that's perfectly random feels dull and meaningless.
 
 ### Info Scarcity Theory / Utilizing Player Imagination
 Knowing when to omit information is also an important tool. This serves two benefits: firstly, it's often less work, lol. More importantly, though, it allows me to harness the player's imagination. Examples include:
 - In world building, I provide small clues which allude to a deep, complex history, but players can only get bits at a time.
-- Create situations where players can hear an enemy, but not see it. Like tracking an enemy's movement in darkness, and trying to figure out how big of a threat it is. This will light up their brain. Or make a really mysterious creature that the player can only get glimpses of if they’re observant.
+- Create situations where players can hear an enemy, but not see it. Like tracking an enemy's footsteps in darkness and trying to figure out how big of a threat it is. This will light up their brain. Or make a really mysterious creature that the player can only get glimpses of if they’re observant (eg an elusive creature like Bigfoot).
 - I think this relates to the fundamental appeal of retro graphics: players' brains makes extra assumptions based on limited visual information.
 In essence: scarcity of information makes things wayyy more interesting/tantalizing.
 
@@ -391,11 +413,6 @@ HardMob: 100hp, 75 resistance.
 It takes noob player 2 seconds to kill easy mob and 8 seconds to kill hardmob.
 
 It takes chad player 1.33 seconds to kill easy mob and 2.66 seconds to kill hard mob. Notice how the easy mob became 1.5x easier while the hard mob became 3x easier. Thus pierce resistance is a way to “gatekeep” harder mobs without completely invalidating earlier mobs.(i need to figure out a bunch of formulas that describe this kind of relationship)
-
-
-### Endgame
-How to make endgame really interesting: have a few optional areas that are REALLY hard (like you have to min-max to clear). The types of items dropped there are rare and marginally better at best, and possibly a few charms/socketables/whatever that are desirable for completionists. Therefore most players won’t feel super obligated to farm these areas, since the loot isn't that much better, but it keeps the endgame fresh.
-
 
 ### Stealth System
 The stealth system is complex. There are 3 types of detection: visual, auditory, and olfactory. It requires an adequate visual to continually lock on to the player. However, enemies may try swing at you even if they don't see you (watch out illusionists)
